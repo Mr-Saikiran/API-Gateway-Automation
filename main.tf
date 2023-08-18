@@ -1,4 +1,4 @@
-resource "aws_route53_record" "testing" {
+resource "aws_route53_record" "test-route53" {
   zone_id = var.zone_id
   name    = var.name
   type    = var.type
